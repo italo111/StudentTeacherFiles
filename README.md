@@ -1,1 +1,3 @@
 # StudentTeacherFiles
+This program uses polymorphism, interface, and inheritance of objects, but mostly interfacing. First the program asks for the number of members that can be either a student, teacher or a TA in the following format: Position Name StudentID TeacherID Phone . the position must specify if it is a teacher, student or TA. each of those roles have their respective classes and a different way of processing the data. 
+CSVPrintable is the interface class that has a special method csvPrintln(PrintWriter out) that prints all the data that is on their respective class into a excell file table.
